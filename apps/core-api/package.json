@@ -1,0 +1,20 @@
+{
+  "name": "@doortodoor/core-api",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "fastify": "^5.10.0",
+    "helmet": "^8.3.0",
+    "pino": "^10.3.1",
+    "rate-limiting": "^1.0.1",
+    "zod": "^4.4.3"
+  }
+}
